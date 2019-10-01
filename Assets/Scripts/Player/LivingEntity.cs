@@ -9,8 +9,6 @@ public abstract class LivingEntity : MonoBehaviour
     [SerializeField]
     protected float _velocity = 5f;
 
-    protected abstract void Passive();
-
     public void DoAnimation() {
 
     }

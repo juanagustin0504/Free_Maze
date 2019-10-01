@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Manager\NextScene.cs" />
     <Compile Include="Assets\Scripts\Manager\SceneChangeManager.cs" />
     <Compile Include="Assets\Scripts\Manager\SelectCharacterManager.cs" />
+    <Compile Include="Assets\Scripts\Player\ControllerScript.cs" />
     <Compile Include="Assets\Scripts\Player\LivingEntity.cs" />
     <Compile Include="Assets\Scripts\Player\Logcat.cs" />
     <Compile Include="Assets\Scripts\Player\Rass.cs" />
@@ -80,7 +81,9 @@
     <Compile Include="Assets\Scripts\Test\Movemoment.cs" />
     <Compile Include="Assets\Scripts\Test\Test.cs" />
     <Compile Include="Assets\Scripts\UI\ButtonActiveController.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeScenes.cs" />
     <Compile Include="Assets\Scripts\UI\Help.cs" />
+    <Compile Include="Assets\Scripts\UI\HelpImageChange.cs" />
     <Compile Include="Assets\Scripts\UI\Joystick.cs" />
     <Compile Include="Assets\Scripts\UI\MazeMake.cs" />
     <Compile Include="Assets\Scripts\UI\NextPlayer.cs" />

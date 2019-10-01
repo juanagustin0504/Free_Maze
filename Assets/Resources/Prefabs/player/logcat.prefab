@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4616090111595648232}
   - component: {fileID: 4616090111595648233}
-  - component: {fileID: -4318619669537427940}
+  - component: {fileID: -7099247353824872677}
   m_Layer: 0
   m_Name: logcat
   m_TagString: Untagged
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4318619669537427940
+--- !u!114 &-7099247353824872677
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,12 +89,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4616090111595648234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47654a932c23a564bb7b7197998d6a1f, type: 3}
+  m_Script: {fileID: 11500000, guid: 963018d77d01f02448847c66393b1b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocity: 5
+  _velocity: 3
   joystick: {fileID: 6803181411468158193, guid: 633379adb840d0549b4dd149c8f512b2,
     type: 3}
   layerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295

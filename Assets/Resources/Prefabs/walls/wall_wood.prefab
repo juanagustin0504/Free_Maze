@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5157578851281100260}
   - component: {fileID: 2528829096977060585}
   - component: {fileID: -7847612640821586292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall_wood
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -63,7 +63,6 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

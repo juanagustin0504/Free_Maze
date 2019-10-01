@@ -10,7 +10,4 @@ public class Rass : LivingEntity
         _treasurePos = GameObject.FindGameObjectWithTag("treasure").transform;
     }
 
-    protected override void Passive() {
-        // 화살표 UI 방향을 treasurePos 방향으로
-    }
 }
