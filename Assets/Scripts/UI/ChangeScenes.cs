@@ -18,8 +18,8 @@ public class ChangeScenes : MonoBehaviour
         
     }
     
-    public void ChangeGameScenes()
+    public void ButtonClick()
     {
-        SceneManager.LoadScene("GameMain");
+        SceneManager.LoadScene(1);
     }
 }

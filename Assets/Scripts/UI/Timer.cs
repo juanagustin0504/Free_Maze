@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -21,5 +22,11 @@ public class Timer : MonoBehaviour
         sec = (int)time % 60;
         timerStr = min.ToString("00") + " : " + sec.ToString("00");
         TimeText.text = timerStr;
-           }
+
+        if(time < 0)
+        {
+            SceneManager.LoadScene(3);
+        }
+    }
+  
 }

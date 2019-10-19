@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class SceneChangeManager : MonoBehaviour
 {
     public void NextScene() {
-        SceneManager.LoadScene(++GameManager.sceneIndex);
+        SceneManager.LoadScene(1);
     }
 }

@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\UI\Help.cs" />
     <Compile Include="Assets\Scripts\UI\HelpImageChange.cs" />
     <Compile Include="Assets\Scripts\UI\Joystick.cs" />
+    <Compile Include="Assets\Scripts\UI\MainScene.cs" />
     <Compile Include="Assets\Scripts\UI\MazeMake.cs" />
     <Compile Include="Assets\Scripts\UI\NextPlayer.cs" />
     <Compile Include="Assets\Scripts\UI\PlayerCamera.cs" />

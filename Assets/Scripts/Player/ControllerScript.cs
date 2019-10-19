@@ -70,23 +70,7 @@ public class ControllerScript :  LivingEntity
                 } else
                     _animator.SetBool("Walking", false);*/
 
-        Ray2D ray = new Ray2D(transform.position, moveDirection);
-
-        RaycastHit2D rayHit = Physics2D.Raycast(ray.origin, ray.direction, (_velocity * Time.deltaTime) + 0.75f, layerMask);
-
-        if (rayHit.collider == null) {
-            transform.Translate(moveVelocity * Time.deltaTime, Space.World);
-            Debug.Log("ㅎㅎ");
-        }
-        else if(rayHit.collider.CompareTag("Wall"))
-        {
-            return;
-
-        }
-        else if (rayHit.collider.CompareTag("Goal"))
-        {
-            SceneManager.LoadScene(2);
-        }
+        
         transform.Translate(moveVelocity * Time.deltaTime, Space.World);
         transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -0.5f + xDistance, 52.5f - xDistance),
@@ -123,5 +107,10 @@ public class ControllerScript :  LivingEntity
 
 
     }
+     void OnCollisionEnter2D(Collision2D other)
+   {
+        if(other.transform.CompareTag("Goal"))
+        SceneManager.LoadScene(2);
+   }
 
 }
